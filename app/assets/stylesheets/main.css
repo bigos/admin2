@@ -16,3 +16,8 @@ div#posts {
     }
   }
 }
+
+p.tool_bar {
+  background-color: #ffc71f;
+  padding: 0.25em;
+}
