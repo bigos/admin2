@@ -1,10 +1,18 @@
 * README
 
-This is attempt to create a simple admin app, because the old apps do not seem
+This was attempt to create a simple admin app, because the old apps do not seem
 to work with the new assets.
 
 New default application uses https://github.com/rails/propshaft, and changes the
 way the assets are handled.
+
+But then I found
+https://github.com/railsadminteam/rails_admin
+also consider
+https://trestle.io/
+https://github.com/thoughtbot/administrate
+
+https://github.com/lorint/admin_panel_comparison
 
 ** install
 file:~/Programming/Ruby/admin2/Gemfile::1
