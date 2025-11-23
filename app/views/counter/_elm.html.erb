@@ -1,0 +1,11 @@
+<!-- div counter, elm Counter -->
+<script>
+ function loadElm(){
+   var enode = document.getElementById("counter");
+   if (enode)
+   { var app = Elm.Counter.init({node: enode,
+                                 flags: "no flags"})};
+   // use ports and stuff here
+ };
+ document.addEventListener("DOMContentLoaded", loadElm);
+</script>
