@@ -16,7 +16,8 @@
     = stylesheet_link_tag :app, "data-turbo-track": "reload"
     = javascript_importmap_tags
   %body
-    %p{class: 'notice'}= notice
-    %p{class: 'alert'}= alert
+    -# we may not need those
+    -# %p{class: 'notice'}= notice
+    -# %p{class: 'alert'}= alert
 
     = yield
