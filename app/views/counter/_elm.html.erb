@@ -1,4 +1,9 @@
-<!-- div counter, elm Counter -->
+<div id="counter">
+  Please wait...
+</div>
+
+<%= javascript_include_tag "counter", "data-turbo-eval": "false" %>
+
 <script>
  function loadElm(){
    var enode = document.getElementById("counter");
