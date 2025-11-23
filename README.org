@@ -2,3 +2,32 @@
 
 This is attempt to create a simple admin app, because the old apps do not seem
 to work with the new assets.
+
+New default application uses https://github.com/rails/propshaft, and changes the
+way the assets are handled.
+
+** install
+
+*** create gemset, install rails and create new app
+
+#+begin_example
+rbenv gemset create 3.4.7 admin2
+rbenv gemset list
+rbenv gemset active
+gem install rails
+rails new admin2
+#+end_example
+
+*** installing additional gems
+
+**** haml
+In [[file:Gemfile::group :development do]] add html2haml, and in the main section add haml-rails, and run ~bundle install~
+
+
+*** temporary notes
+
+**** the other app gems
+file:~/Programming/Ruby/admin1/Gemfile.lock::1
+haml-rails, html2haml
+inherited_resources
+devise
