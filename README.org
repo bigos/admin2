@@ -7,6 +7,7 @@ New default application uses https://github.com/rails/propshaft, and changes the
 way the assets are handled.
 
 ** install
+file:~/Programming/Ruby/admin2/Gemfile::1
 
 *** create gemset, install rails and create new app
 
@@ -21,7 +22,19 @@ rails new admin2
 *** installing additional gems
 
 **** haml
-In [[file:Gemfile::group :development do]] add html2haml, and in the main section add haml-rails, and run ~bundle install~
+In [[file:Gemfile::group :development do]] add gem 'html2haml', and in the main
+section add gem 'haml-rails', and install those gems and convert the layout
+#+begin_example
+bundle install
+rails generate haml:application_layout convert
+#+end_example
+
+and then remove the erb layout
+
+**** devise
+https://github.com/heartcombo/devise#starting-with-rails
+
+
 
 
 *** temporary notes
