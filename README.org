@@ -34,8 +34,11 @@ and then remove the erb layout
 **** devise
 https://github.com/heartcombo/devise#starting-with-rails
 
+**** inherited resources are deprecated
+use responders
 
-
+**** responders
+https://github.com/heartcombo/responders
 
 *** temporary notes
 
