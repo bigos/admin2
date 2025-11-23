@@ -15,6 +15,7 @@
     %link{:href => "/icon.png", :rel => "apple-touch-icon"}/
     = stylesheet_link_tag :app, "data-turbo-track": "reload"
     = javascript_importmap_tags
+    = javascript_include_tag "counter", {type: "module"}
   %body
     -# we may not need those
     -# %p{class: 'notice'}= notice
