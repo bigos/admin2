@@ -1,0 +1,4 @@
+* README
+
+This is attempt to create a simple admin app, because the old apps do not seem
+to work with the new assets.
