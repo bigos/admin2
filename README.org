@@ -40,6 +40,13 @@ use responders
 **** responders
 https://github.com/heartcombo/responders
 
+*** assets
+file:~/Programming/Ruby/admin2/app/assets/
+[[file:app/views/layouts/application.html.haml::= stylesheet_link_tag]]
+
+https://guides.rubyonrails.org/asset_pipeline.html
+
+
 *** temporary notes
 
 **** the other app gems
