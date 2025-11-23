@@ -1,3 +1,18 @@
 body {
-  background-color: red;
+  background-color: #eeffe6;
+}
+
+div#posts {
+  border: solid red 1px;
+  & > div {
+    border: solid green 1px;
+    background-color: #ddeed8;
+    padding: 0.5em;
+  }
+  & > p {
+    & > a {
+      background-color: #ffc71f;
+      padding: 0.25em;
+    }
+  }
 }

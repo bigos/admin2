@@ -46,6 +46,7 @@ file:~/Programming/Ruby/admin2/app/assets/
 
 https://guides.rubyonrails.org/asset_pipeline.html
 
+*** elm
 
 *** temporary notes
 
