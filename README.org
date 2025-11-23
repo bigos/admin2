@@ -49,9 +49,3 @@ https://guides.rubyonrails.org/asset_pipeline.html
 *** elm
 
 *** temporary notes
-
-**** the other app gems
-file:~/Programming/Ruby/admin1/Gemfile.lock::1
-haml-rails, html2haml
-inherited_resources
-devise
