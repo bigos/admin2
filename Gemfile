@@ -43,6 +43,7 @@ gem "image_processing", "~> 1.2"
 # my gems
 gem "haml-rails"
 gem "responders"
+gem "devise", "~> 4.9"
 
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
@@ -69,5 +70,3 @@ group :test do
   gem "capybara"
   gem "selenium-webdriver"
 end
-
-gem "devise", "~> 4.9"
