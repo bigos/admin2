@@ -21,6 +21,8 @@
       \|
       = link_to 'users', users_path
       \|
+      = link_to 'comments', comments_path
+      \|
       = link_to 'counter', counter_path, data: {turbo: 'false'}
       - if current_user.blank?
         \|
