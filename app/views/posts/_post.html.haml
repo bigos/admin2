@@ -7,3 +7,24 @@
     %strong Body:
     = post.body
 
+  - if post.user.present?
+    %p
+      %strong Author:
+      = link_to post.user.email, post.user
+  - else
+    %p
+      Ooops no author
+  %p
+    %strong Comments:
+    = post.comments.count
+  %div
+    %table
+      %tr
+        %th link
+        %th author
+        %th body
+      - post.comments.each do |c|
+        %tr
+          %td= link_to c.id.to_s, c
+          %td= link_to c.user.email, c.user
+          %td= c.body

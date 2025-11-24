@@ -3,4 +3,12 @@
 = render @user
 
 %div
+  - @user.posts.each do |p|
+    %p
+      = link_to p.id.to_s, post_path
+      %br
+      = p.inspect
+    %p= "post has #{p.comments.count} comments"
+
+%div
   = link_to "Back to users", users_path

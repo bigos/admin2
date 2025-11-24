@@ -1,13 +1,12 @@
 %div{id: dom_id(comment)}
   %p
     %strong User:
-    = comment.user_id
+    = link_to comment.user.email, comment.user
 
   %p
     %strong Post:
-    = comment.post_id
+    = link_to comment.post.id, comment.post
 
   %p
     %strong Body:
     = comment.body
-
