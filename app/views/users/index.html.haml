@@ -1,2 +1,12 @@
-%h1 Users#index
-%p Find me in app/views/users/index.html.haml
+%p{style: "color: green"}= notice
+
+- content_for :email, "Users"
+
+%h1 Users
+
+%div{id: "users"}
+  - @users.each do |user|
+    = render user
+    %p
+      = link_to "Show this user", user
+    %hr
