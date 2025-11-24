@@ -16,5 +16,15 @@ class Comment < ApplicationRecord
   belongs_to :post
 
   def self.seed_comments
+    users = User.all
+    posts = Post.all
+
+    users.each do |u|
+      uname = u.email.split("@").first
+      posts.each do |p|
+        u.comments.create post_id: p.id,
+                          body: "#{uname} says - nice"
+      end
+    end
   end
 end
