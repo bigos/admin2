@@ -11,4 +11,10 @@
 #
 
 class Comment < ApplicationRecord
+
+  belongs_to :user
+  belongs_to :post
+
+  def self.seed_comments
+  end
 end
