@@ -61,6 +61,7 @@ end
 
 group :development do
   # Use console on exceptions pages [https://github.com/rails/web-console]
+  gem 'annotate'
   gem "html2haml" # only needed for erb to haml migration
   gem "web-console"
 end
