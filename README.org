@@ -29,6 +29,9 @@ rails new admin2
 
 *** installing additional gems
 
+**** devise
+https://github.com/heartcombo/devise#starting-with-rails
+
 **** haml
 In [[file:Gemfile::group :development do]] add gem 'html2haml', and in the main
 section add gem 'haml-rails', and install those gems and convert the layout
@@ -38,9 +41,6 @@ rails generate haml:application_layout convert
 #+end_example
 
 and then remove the erb layout
-
-**** devise
-https://github.com/heartcombo/devise#starting-with-rails
 
 **** inherited resources are deprecated
 use responders
@@ -55,5 +55,7 @@ file:~/Programming/Ruby/admin2/app/assets/
 https://guides.rubyonrails.org/asset_pipeline.html
 
 *** elm
+file:~/Programming/Ruby/admin2/app/assets/javascripts/counter.js::1
+file:~/Programming/Ruby/admin2/vendor/elm/counter/src/Counter.elm::1
 
 *** temporary notes
