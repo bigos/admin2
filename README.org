@@ -58,4 +58,4 @@ https://guides.rubyonrails.org/asset_pipeline.html
 file:~/Programming/Ruby/admin2/app/assets/javascripts/counter.js::1
 file:~/Programming/Ruby/admin2/vendor/elm/counter/src/Counter.elm::1
 
-*** temporary notes
+** temporary notes
