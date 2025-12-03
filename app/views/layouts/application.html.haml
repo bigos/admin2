@@ -24,6 +24,8 @@
       = link_to 'comments', comments_path
       \|
       = link_to 'counter', counter_path, data: {turbo: 'false'}
+      \|
+      = link_to 'models', models_index_path
       - if current_user.blank?
         \|
         = link_to 'login', new_user_session_path

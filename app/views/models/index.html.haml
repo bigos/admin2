@@ -1,0 +1,7 @@
+%h1 Models#index
+%p Find me in app/views/models/index.html.haml
+
+%ul
+  - @descendants.each do |d|
+    %li
+      = link_to (d.to_s), models_show_path(model_name: d.to_s)

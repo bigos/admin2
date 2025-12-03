@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  get "models/index"
+  get "models/show"
   resources :comments
   get "users/index"
   get "users/show"
