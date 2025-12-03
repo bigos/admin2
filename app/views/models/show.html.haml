@@ -4,4 +4,8 @@
 
 %p= @current_model.inspect
 
+%p
+  Primary key:
+  = @current_model.primary_key.inspect
+
 %p= @current_model.methods.sort
